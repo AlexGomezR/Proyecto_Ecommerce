@@ -56,8 +56,8 @@ ul.primer-nivel li a{
 ul.primer-nivel li a:hover{
     background-color: rgb(244, 171, 75);
 }
-div.iniciosesion button:hover{
-    background-color: none;
-    
+button.button1 {
+    background-color: transparent;
+    border-color: transparent;
 }
 
