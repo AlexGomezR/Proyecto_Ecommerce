@@ -49,5 +49,5 @@ input.input1:hover{
 }
 ul li:hover a{
     color:hsl(34, 88%, 63%);
-    text-decoration: ;
+    text-decoration: none;
 }
