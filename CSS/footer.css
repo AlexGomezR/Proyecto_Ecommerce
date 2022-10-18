@@ -2,6 +2,7 @@ footer{
     display: flex;
     background-color: hsl(214, 88%, 63%);
     justify-content: space-between;
+    padding: 16px 0px;
 }
 ul li a{
     text-decoration: none;
@@ -37,11 +38,16 @@ input.input1{
 input.input1:hover{
     border: 2px solid hsl(34, 88%, 63%);
 }
-newsletter, newsletter1, newsletter2{
+/* newsletter, newsletter1, newsletter2{
     display:flex;
-}   
+}    */
 .col-6.text-center {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+}
+ul li:hover a{
+    color:hsl(34, 88%, 63%);
+    text-decoration: ;
+}
