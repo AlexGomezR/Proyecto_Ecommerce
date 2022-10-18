@@ -1,0 +1,15 @@
+.input-grp label{
+    display: block;
+}
+.input-grp input{
+    display:block;
+
+}
+
+.input-grp input:hover{
+    border-color:blue;
+}
+
+.input-grp select:checked{
+    background-color: red;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/logo.png" alt="logo" type="image/png" width="50px">
+        <button type="button"><a href="Carrito.html"><img src="Imagenes/carrito.png" width="30px">Carrito</a></button>     
+        <img src="iconos/flecha.png" width="30px">
+        <a href="FormasPago.html"><img src="iconos/pago.png" width="30px"></a>
+        <img src="iconos/flecha.png" width="30px">
+        <a href="Finalizarpedido.html"><img src="iconos/envio.png" width="30px"></a>
+    </header>
+    <section>
+        <h2>Detalles de envío</h2>
+        <form method="get" action="google.com">
+            <h3>Direcciones guardadas</h3>
+            <label for="direccion_1">
+            <input type="radio" name="direccion" id="direccion_1"/><img src="iconos/envio.png" width="30px"> 18690 Almuñecar (Granada)</label>
+            <br/>
+            <label for="direccion_2">
+            <input type="radio" name="direccion" id="direccion_2"/><img src="iconos/envio.png" width="30px"> 29010 Málaga (Málaga)</label>
+            <br/>
+            <label for="direccion_3">
+            <input type="radio" name="direccion" id="direccion_3" checked/><img src="iconos/envio.png" width="30px"> 18001 Granada (Granada)</label>
+            <br/><br/>
+            <a href="Confirmacion.html"><button type="submit">Enviar a esta dirección</button></a>
+        </form>         
+        <form method="POST" action="google.com"> <!--Action:URL a la que se va a enviar el cuestionario. POST:para crear base de datos,
+            también puede ser GET que sería para buscar en la base de datos-->  
+            <h3>Nueva dirección</h3>  
+            <label for="nombre"></label>
+            <input type="text" name="Nombre" placeholder="Nombre y apellidos" id="nombre"/>
+            <br/><br/>
+            <label for="email"></label>
+            <input type="email" name="Email" placeholder="Email" id="email"/>
+            <label for="phone"></label>
+            <input type="number" name="telefono" placeholder="Número de teléfono" id="phone"/>
+            <br/><br/>
+            <label for="dirección"></label>
+            <input type="text" name="dirección" placeholder="Dirección" id="dirección"/>
+            <label for="CP"></label>
+            <input type="number" name="CP" placeholder="Código postal" id="CP"/>
+            <br/><br/>
+            <label for="localidad"></label>
+            <input type="text" name="localidad" placeholder="Localidad" id="localidad"/>
+            <label for="provincia"></label>
+            <input type="text" name="provincia" placeholder="Provincia" id="provincia"/>
+            <br/><br/>
+            <input type="submit" value="Añadir dirección"/>
+        </form>
+    </section>
+</body>
+</html>

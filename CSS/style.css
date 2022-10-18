@@ -1,0 +1,76 @@
+
+/*todos los botones deben tener al menos: background, color, padding, text-decoration:none,text-align:center, 
+cursor:pointer (cambia la flecha por la manita)*/
+h2{
+    color:red;
+}
+.color{
+    color:hsl(210, 16%, 97%);
+}
+.card-list{
+    display:inline;
+}
+.contador{  /* para nombrar a las clases se llama primero con un '.' */
+    color:red;
+    position: absolute;
+    top:-8px;
+    right: -6px;
+}
+.carrito{
+    position:relative;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+h1{font-size:48.83px;}
+h2{font-size:39.06px;}
+h3{font-size:31.25px;}
+h4{font-size:25px;}
+h5{font-size:20px;}
+h6, a, span, p {font-size: 16px;}
+
+.container{
+    max-width: 992px;
+    margin: 0 auto;
+}
+header div.logo{
+    width: 10%;
+}
+header div.input-group{
+    width:50%;
+}
+
+header .header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header .header-inner .logo{
+    width: 50px;
+}
+nav.menu ul li{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    display:inline-block;
+}
+
+nav.menu ul li a {
+    display: block;
+    padding: 16px 8px;
+    text-decoration: none;
+}
+
+header .primer-nivel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .segundo-nivel{
+    display:flex;
+    justify-content: space-between;
+}

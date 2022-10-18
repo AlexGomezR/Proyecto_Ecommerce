@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    background-color: hsl(214, 88%, 63%);
+    justify-content: space-between;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+span{
+    color: black;
+    text-decoration: underline hsl(34, 88%, 63%);
+}
+span:hover{
+    color:hsl(34, 88%, 63%);
+    text-decoration: none;
+}
+div .button1{
+    display:inline-block;
+    background-color: rgb(244, 171, 75);
+    color:black;
+    border: 2px solid rgb(244, 171, 50);
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor:pointer;
+    padding: 4px 8px;
+}
+form.newsletter{
+    display: flex;
+}
+input.input1{
+    padding: 4px 8px;
+    border-radius: 16px;
+    border: none;
+}
+input.input1:hover{
+    border: 2px solid hsl(34, 88%, 63%);
+}
+newsletter, newsletter1, newsletter2{
+    display:flex;
+}   
+.col-6.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;

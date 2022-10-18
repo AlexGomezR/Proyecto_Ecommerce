@@ -1,0 +1,63 @@
+.container-fluid {
+    background-color:hsl(214, 88%, 63%);
+    background-position: center;
+    text-align: center;
+}
+
+body nav.header{ /*para hacer que el header este pegado arriba*/
+    padding: 0px;
+
+} 
+div#navbarSupportedContent {/*para alinear los elementos dentro del header*/
+    display: flex;
+    align-items: flex-start;
+}
+
+
+li.text-color{
+    font: hsl(34, 88%, 63%);;
+}
+.container{
+    max-width: 992px;
+    margin: 0 auto;
+}
+.container div.logo{
+    width: 8px;
+}
+.logo{
+        display:flex;
+    max-width: 72px;
+    display: inline;
+}
+div .button1{
+display:inline-block;
+background-color: rgb(244, 171, 75);
+color:black;
+border: 2px solid rgb(244, 171, 50);
+border-radius: 16px;
+text-decoration: none;
+text-align: center;
+cursor:pointer;
+padding: 8px 16px;
+}
+form input.form-control{
+    padding: 8px 16px;
+}
+form button.icono-buscar{
+    border-color:none;
+    border-radius: 8px;
+}
+ul.primer-nivel{
+    gap:8px;
+}
+ul.primer-nivel li a{
+    border-radius: 8px;
+}
+ul.primer-nivel li a:hover{
+    background-color: rgb(244, 171, 75);
+}
+div.iniciosesion button:hover{
+    background-color: none;
+    
+}
+

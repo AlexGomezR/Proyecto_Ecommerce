@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/logo.png" alt="logo" type="image/png" width="50px">
+        <button type="button"><a href="Carrito.html"><img src="Imagenes/carrito.png" width="30px">Carrito</a></button>   
+        <img src="iconos/flecha.png" width="30px">
+        <a href="FormasPago.html"><img src="iconos/pago.png" width="30px"></a>
+        <img src="iconos/flecha.png" width="30px">
+        <a href="Finalizarpedido.html"><img src="iconos/envio.png" width="30px"></a>
+    </header>
+    <section>
+        <h1>Forma de pago</h1>
+        <form>
+            <h3>Mis tarjetas</h3>
+            <label for="tarjeta _1">
+            <input type="radio" name="tarjeta" id="tarjeta_1"/><img src="iconos/tarjeta.png" width="30px"> Mastercard... 4578 </label>
+            <br/>
+            <label for="tarjeta_2">
+            <input type="radio" name="tarjeta" id="tarjeta_2"/> <img src="iconos/tarjeta.png" width="30px"> Visa... 2456  </label>
+            <br/>
+            <label for="tarjeta_3">
+            <input type="radio" name="tarjeta" id="tarjeta_3" checked/> <img src="iconos/tarjeta.png" width="30px"> Mastercard... 1203 </label>
+            <br/><br/>
+            <a href="Finalizarpedido.html"><button type="button">Pagar con esta tarjeta</button></a>
+            </form>
+        <h3>Añadir nueva tarjeta</h3>
+        <form>
+            <form method="POST" action="google.com"> <!--Action:URL a la que se va a enviar el cuestionario. POST:para crear base de datos,
+                también puede ser GET que sería para buscar en la base de datos-->    
+                    <label for="nombre"></label>
+                    <input type="text" name="Nombre" placeholder="Nombre del titular" id="nombre"/>
+                    <br/><br/>
+                    <label for="numerotarjeta"></label>
+                    <input type="number" name="numerotarjeta" placeholder="Numero de la tarjeta" id="numerotarjeta"/>
+                    <br/><br/>
+                    <label for="caducidadtarjeta"></label>
+                    <input type="month" name="caducidadtarjeta" placeholder="Fecha de caducidad" id="caducidadtarjeta"/>
+                    <label for="cvc"></label>
+                    <input type="number" name="cvc" placeholder="CVC" id="cvc" max="999"/>
+                    <br/>
+                    <input type="submit" value="Añadir tarjeta"/>
+        </form>
+    </section>
+
+</body>
+</html>

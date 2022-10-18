@@ -1,0 +1,9 @@
+div.card-list{
+    display: inline-block;
+}
+.card.articulo1,
+.card.articulo2,
+.card.articulo3,
+.card.articulo4{
+    display: inline-block;
+}
