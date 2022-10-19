@@ -47,9 +47,10 @@ input.input1{
     border-radius: 16px;
     border: none;
 }
-input.input1:hover{
-    border: 2px solid hsl(34, 88%, 63%);
+ input.input1:focus-visible{
+    outline: none;
 }
+
 .col-6.text-center {
     display: flex;
     align-items: center;
