@@ -4,13 +4,22 @@ footer{
     justify-content: space-between;
     padding: 16px 0px;
 }
-ul li a{
-    text-decoration: none;
+div.apps{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none;
+}
+ul li a,
+div a{
     color:black;
+    text-decoration: none;
 }
 span{
     color: black;
-    text-decoration: underline hsl(34, 88%, 63%);
 }
 span:hover{
     color:hsl(34, 88%, 63%);
@@ -27,8 +36,11 @@ div .button1{
     cursor:pointer;
     padding: 4px 8px;
 }
-form.newsletter{
+div.newsletter{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 input.input1{
     padding: 4px 8px;
@@ -38,16 +50,22 @@ input.input1{
 input.input1:hover{
     border: 2px solid hsl(34, 88%, 63%);
 }
-/* newsletter, newsletter1, newsletter2{
-    display:flex;
-}    */
 .col-6.text-center {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
 }
-ul li:hover a{
+ul li:hover a,
+div a:hover{
     color:hsl(34, 88%, 63%);
     text-decoration: none;
 }
+div.apps a img{
+    height: 40px;
+}
+div.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
