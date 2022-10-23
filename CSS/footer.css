@@ -4,7 +4,15 @@ footer{
     justify-content: space-between;
     padding: 16px 0px;
 }
-div.apps{
+/* div.apps,{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+div.apps div.android i,
+div.apps div.android span,
+div.apps div.apple{
     display: flex;
     align-content: center;
     align-items: center;
@@ -21,7 +29,8 @@ div a{
 span{
     color: black;
 }
-span:hover{
+div.android:hover a,
+div.apple:hover a{
     color:hsl(34, 88%, 63%);
     text-decoration: none;
 }
@@ -59,13 +68,11 @@ input.input1{
     flex-direction: column;
 }
 ul li:hover a,
-div a:hover{
+/* div a:hover */{
     color:hsl(34, 88%, 63%);
     text-decoration: none;
 }
-div.apps a img{
-    height: 40px;
-}
+
 div.redes{
     display: flex;
     flex-direction: column;
