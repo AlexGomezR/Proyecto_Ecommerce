@@ -46,6 +46,7 @@ input.input1{
     padding: 4px 8px;
     border-radius: 16px;
     border: none;
+    align-items: center;
 }
  input.input1:focus-visible{
     outline: none;
@@ -70,3 +71,16 @@ div.redes{
     flex-direction: column;
     justify-content: space-around;
 } 
+.carrusel{
+    height: 100%;
+}
+div.redes2{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.redes2 a img{
+    height: 40px;
+    width: 40px;
+}
