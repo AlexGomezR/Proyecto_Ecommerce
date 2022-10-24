@@ -73,11 +73,11 @@ input.input1{
     justify-content: space-evenly;
     flex-direction: column;
 }
-ul li:hover a,
+ul li:hover a
 /* div a:hover */
 {
-    color:hsl(34 88% 63%);
-    text-decoration: none;
+    color:hsl(34, 88%, 63%);
+    text-decoration:none;
 }
 
 div.redes{
