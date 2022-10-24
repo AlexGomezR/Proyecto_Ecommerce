@@ -10,13 +10,19 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 } */
-div.apps div.android i,
-div.apps div.android span,
-div.apps div.apple{
+
+div.apps{
     display: flex;
+    flex-direction: column;
     align-content: center;
     align-items: center;
     justify-content: space-evenly;
+}
+div.icono-apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 ul li{
     list-style: none;
@@ -68,8 +74,9 @@ input.input1{
     flex-direction: column;
 }
 ul li:hover a,
-/* div a:hover */{
-    color:hsl(34, 88%, 63%);
+/* div a:hover */
+{
+    color:hsl(34 88% 63%);
     text-decoration: none;
 }
 
@@ -90,4 +97,22 @@ div.redes2{
 div.redes2 a img{
     height: 40px;
     width: 40px;
+}
+button.carousel{
+    display: flex;
+    align-items: center;
+}
+div.opiniones{
+    display: flex;
+    justify-content: space-between;
+}
+.opiniones-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opiniones-elementos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
